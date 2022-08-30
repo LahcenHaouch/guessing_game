@@ -11,6 +11,7 @@ fn main() {
     loop {
         if lives == 0 {
             println!("Game Over");
+            println!("The secret number was {secret_number}");
             break;
         }
 
